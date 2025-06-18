@@ -6,6 +6,10 @@
     font-family:'Poppins',sans-serif;
 }
 
+body {
+    color: black
+}
+
 /* Styling the nav-bar*/
 .nav-bar{
     position:fixed;
@@ -53,6 +57,11 @@
 /* Styling the Logo*/
 .logo{
     font-weight:bold;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none
 }
 
 .logo::first-letter{
