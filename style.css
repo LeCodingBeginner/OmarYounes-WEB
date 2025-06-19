@@ -52,6 +52,8 @@ body {
 .nav-menu a:hover{
     font-weight: bold;
     font-size:1.05em;
+    color:yellow;
+    transition: ease 1s;
 }
 
 /* Styling the Logo*/
@@ -113,7 +115,7 @@ footer{
      margin-bottom:30px; 
 }
 
-.info-container div::first-letter{
+.info-container span::first-letter{
     font-size:1.5em;
     color:yellow;
     border-bottom:solid 2px yellow;
@@ -127,4 +129,59 @@ footer{
 
 #last-info{
     border-right: none;
+}
+
+/* Styling the icon of the logo*/
+
+.logo i{
+    color: yellow;
+    margin-right:4px;
+    font-size: 1.2em;
+}
+
+/* Styling the Contact segment*/
+
+.info-container div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right:20px;
+}
+
+.info-container a{
+    text-decoration: none;
+    color:white;
+}
+
+.info-container i{
+    color: yellow;
+    margin:5px;
+    font-size: 1.2em;
+}
+
+.socials{
+    width: 300px;
+}
+
+.info-container .linked{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.info-container a:hover{
+    text-decoration: underline;
+}
+
+/* WE are officialy done with the footer as well as the Nav styling*/
+
+/* Let's work on the main content of the main page*/
+
+.main-container{
+    border:solid black;
+    height:450px;
+    padding:20px;
+    width:1400px;
+    margin:50px ;
 }
