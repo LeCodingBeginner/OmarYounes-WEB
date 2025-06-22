@@ -6,8 +6,9 @@
     font-family:'Poppins',sans-serif;
 }
 
-body {
-    color: black
+html,body {
+    color: black;
+    height:100%;
 }
 
 /* Styling the nav-bar*/
@@ -90,8 +91,8 @@ footer{
 
 /* Styling the foot of the web page*/
 .foot{
-    position:fixed;
-    bottom: 0;
+    position:absolute;
+    bottom: 100;
     right:0;
     left:0;
     height:250px;
@@ -184,4 +185,34 @@ footer{
     padding:20px;
     width:1400px;
     margin:50px ;
+}
+
+/* Styling the exercice sheet */
+.exos{
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+
+}
+
+.exos h2{
+    margin-bottom:15px;
+}
+
+.question{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    border: solid gray;
+    padding:20px;
+    width: 700px;
+    border-radius:5px;
+}
+
+.reponses{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: center;
 }
