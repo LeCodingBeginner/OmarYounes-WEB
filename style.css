@@ -9,7 +9,7 @@
 html,body {
     color: black;
     height:100%;
-}
+background-color: #f9fbfc;}
 
 /* Styling the nav-bar*/
 .nav-bar{
@@ -180,7 +180,8 @@ footer{
 /* Let's work on the main content of the main page*/
 
 .main-container{
-    border:solid black;
+    border: #04344f;
+    border-radius: 10px;
     height:450px;
     padding:20px;
     width:1400px;
@@ -215,4 +216,82 @@ footer{
     flex-direction: row;
     gap:30px;
     justify-content: center;
+}
+
+/*Styling the drop down menu*/
+
+.dropdown{
+    display:inline;
+}
+
+.btn-drop{
+    background-color: transparent;
+    color:white;
+    border:none;
+    cursor: pointer;
+}
+
+.btn-drop:hover{
+    font-weight: bold;
+    font-size:1.1em;
+    color:yellow;
+    transition: ease 1s;
+}
+
+.dropdown a{
+    text-decoration: none;
+    color:black;
+    display:block;
+    padding:10px 15px;
+    border-bottom:yellow;
+}
+
+.content{
+    background-color: rgb(95, 147, 163);
+    position:absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px black;
+    display: none;
+}
+
+.dropdown:hover .content{
+    display:block;
+}
+
+.btn-drop{
+    text-decoration: none;
+    color:white;
+    border-right:solid yellow;
+    padding-right:15px;
+    font-size: 1.1em;
+    margin-right:5px;
+}
+
+/* Styling the first page's script:*/
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&display=swap');
+
+.main-container {
+  background: linear-gradient(to bottom, #f0f9fb, #e1f2f3); /* soft light to contrast with nav/footer */
+  padding: 80px 20px;
+  text-align: center;
+  color: #04344f; /* matches your navbar's dark blue tone */
+}
+
+.title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  color: #052a41;
+  text-shadow: 1px 1px 2px rgba(67, 167, 171, 0.2);
+}
+
+.intro {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+  padding: 0 15px;
+  color: #04344f;
 }
