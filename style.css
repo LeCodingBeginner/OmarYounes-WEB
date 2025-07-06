@@ -276,6 +276,7 @@ footer{
   background: linear-gradient(to bottom, #f0f9fb, #e1f2f3); /* soft light to contrast with nav/footer */
   padding: 80px 20px;
   text-align: center;
+  width:900px;
   border:solid #256b97;
   color: #04344f; /* matches your navbar's dark blue tone */
   border-top:none;
@@ -293,7 +294,6 @@ footer{
 .intro {
   font-family: 'Roboto', sans-serif cursive;
   font-size: 1.1rem;
-  max-width: 800px;
   margin: 0 auto;
   line-height: 1.8;
   padding: 0 15px;
@@ -457,4 +457,11 @@ footer{
 .corr:hover{
     border: solid 4px rgb(88, 57, 71);
     cursor:pointer;
+}
+
+.contain{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
